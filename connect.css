@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(street.jpeg);
+     background-size: cover; 
+     background-repeat: repeat;
+}
+.menubar{
+    background-color: orange;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.menubar a:hover {
+background-color: brown;
+color: rgb(237, 139, 100);
+}
+
+
+.menubar a {
+margin: 50px;
+font-size: 30px;
+text-decoration: none;
+float: justify;
+padding: 14px;
+border-radius: 120px; 
+}
+
+div [class="logo"]{
+font-size: 50px;
+color: yellow;
+font-family: Times New Roman;
+padding: 2px;
+}
+
+.b_searchbox{
+    resize: none;
+    font-size: 34px;
+   border-radius: 25px;
+   height: 90px;
+   width: 22%;
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: url(wall.jpeg);
+    background-size: cover;
+}
+.border{
+    border: 9px solid  white;
+    width: 35%;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    font-family: Arial;
+   margin: 0px 450px;
+   color: black;
+   font-size: 21px;
+   background-color: white;
+}
+label{
+  color: black;
+  font-size: 70px;
+  margin: 44px;
+  text-shadow: 50px;
+}
+select{
+  border-radius: 5.6px;
+  width: 225px;
+}
+input[type="date"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+input[type="text"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+input[type="age"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+input[type="email"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+input[type="password"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+input[type="contact"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+
+hr{
+    color:  red;
+}
+
+input[type="number"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+.submit-button{
+    border-radius: 45px;
+    position: relative;
+    background-color: rgb(25, 34, 90);
+    cursor: pointer;
+    color: white;
+
+}

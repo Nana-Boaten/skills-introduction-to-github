@@ -1,0 +1,40 @@
+body{
+    background-image: url(street.jpeg);
+    background-size: cover;
+
+}
+
+label{
+    font-size: 32px;
+    color: black;
+}
+
+.border{
+    border: 9px solid  white;
+    width: 25%;
+    color: black;
+    margin: 0px 450px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 30px;
+}
+
+p{
+    font-size: 21px;
+}
+
+
+input[type="text"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+input[type="password"]{
+    border-radius: 5.6px;
+    font-family: times new roman;
+}
+
+button{
+    border-radius: 30px;
+    position: relative;
+}
